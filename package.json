@@ -1,5 +1,5 @@
 {
-  "name": "ToolingAPI",
+  "name": "ToolingAPIACE",
   "version": "0.0.1",
   "description": "Create Salesforce IDE in 30 Minutes",
   "main": "Web.js",

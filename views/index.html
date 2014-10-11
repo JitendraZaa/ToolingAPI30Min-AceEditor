@@ -14,6 +14,10 @@
       </p>
       <p><a id="prodBtn" role="button" style="margin-right:40px" class="btn btn-primary btn-lg">Production</a><a id="sandBtn" role="button" class="btn btn-primary btn-lg">Sandbox</a></p>
     </div>
+     <script>
+    if (window.location.protocol != "https:")
+	    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
     <script type="text/javascript" src="lib/jquery.js"></script>
     <script type="text/javascript" src="lib/jqueryCookies.js"></script>
     <script type="text/javascript" src="lib/forcetk.js"></script>
