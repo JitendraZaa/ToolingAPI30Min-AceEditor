@@ -500,7 +500,7 @@ function getLatestLogIds()
 	$("#txtAreaBody").css("display","none");
 	$("#codeBody").css("display","none"); 
 		
-	client.query('SELECT Id,LogUserId FROM ApexLog ORDER BY StartTime DESC LIMIT 1',
+	client.query('SELECT Id,LogUserId FROM ApexLog ORDER BY StartTime DESC',
         function (data) {
 			   $.each(data.records, function(i, obj)
 				{   
