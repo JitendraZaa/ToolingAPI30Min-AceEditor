@@ -18,6 +18,7 @@ if($.cookie("AccToken") && $.cookie("APIVer") && $.cookie("InstURL"))
 
 function prodLogin()
 {
+	loginUrl = 'https://login.salesforce.com/'; 
     login();
 }
 
