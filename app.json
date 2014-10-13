@@ -2,6 +2,6 @@
   "name": "Salesforce Editor",
   "description": "Create full featutres Salesforce IDE in 30 minutes with the help of REST based Tooling API and ACE Editor",
   "repository": "https://github.com/JitendraZaa/ToolingAPI30Min-AceEditor.git",
-  "logo": "https://github.com/JitendraZaa/ToolingAPI30Min-AceEditor/blob/master/client/Online%20Salesforce%20Editor%20(OSE).png",
+  "logo": "https://dreamforce14.herokuapp.com/Online%20Salesforce%20Editor%20(OSE).png",
   "keywords": ["Salesforce", "Tooling API", "Heroku", "Nodejs"]
 }
